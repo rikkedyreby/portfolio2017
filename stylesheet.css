@@ -1,0 +1,1928 @@
+/*--------------GENERAL SETTINGS START---------------*/
+
+body {
+    background-image: url(new_media/background.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+}
+
+#dok_style,
+#pres_style {
+    padding: 0 5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+#cv,
+#stilartsite,
+#stilartsite_1,
+#stilartsite_2,
+#stilartsite_3,
+#stilartsite_4,
+#animation,
+#animation_1,
+#animation_2,
+#animation_3,
+#animation_4,
+#animation_5,
+#video,
+#video_2,
+#video_3,
+#app,
+#app_2,
+#ux,
+#ux_2,
+#ux_3,
+#ux_valg,
+#app_3 {
+    max-width: 1800px;
+    /*KONTROLLERER MAX BREDDE PÅ DINE SECTIONS*/
+    margin: 4vw auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: .5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+/*--------------GENERAL SETTINGS END---------------*/
+
+/*-----------------MENU--------------------*/
+
+.pres_header {
+    position: fixed;
+    background: rgba(60, 46, 35, 0.72);
+    width: 100vw;
+    padding: .5vw;
+    ;
+    z-index: 100;
+    top: 0;
+}
+
+.pres_header nav {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 0 2vw 0 0;
+}
+
+.pres_header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 50px;
+    display: block;
+}
+
+.pres_header nav a:hover {
+    color: #BD9882;
+    /*en anden farve når musen går henover*/
+}
+
+@media screen and (min-width: 668px) {
+    /*Så bliver menuen på række inden når formaten bliver større end ipad*/
+    .pres_header nav a {
+        display: inline-block;
+    }
+}
+
+
+.lillemenu {
+    background: rgba(60, 46, 35, 0.72);
+    height: 230px;
+    border-radius: 4px;
+
+}
+
+.ind {
+    margin-left: 20px;
+
+}
+
+.lillemenu img {
+    width: 20px;
+    margin: 10px:
+}
+
+.lillemenu a:hover {
+    opacity: 50%;
+    color: #BD9882;
+}
+
+.lillemenu a {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    padding: 2px 0 2px 20px;
+
+}
+
+#placering {
+    top: 10vw;
+    left: 85vw;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+
+}
+
+
+
+
+/*---------------------FONTE-----------------------*/
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 2.5em;
+    margin: 50px 0 0 0;
+    padding: 5px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+#dok_style h2 {
+    color: black;
+    font-size: 2.5em;
+}
+
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+strong {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+b {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.4em;
+    margin: 50px;
+}
+
+
+footer {
+    margin: 10px;
+}
+
+
+/*------------SPLASH---------------*/
+
+#splash {
+    width: 100vw;
+    height: 167.2vw;
+    background-image: url(new_media/background_3.jpg);
+    background-size: cover;
+}
+
+#splash img {
+    width: 100%;
+}
+
+
+/*--------------MEDIA QUERIES-------------*/
+
+@media screen and (min-width: 1025px) and (orientation:landscape) {
+    #splash {
+        height: 56.3vw;
+        background-image: url(new_media/background_3.jpg);
+    }
+    #splash img {
+        width: 100%;
+    }
+}
+
+/************************************************************/
+
+/**************************TEMA 1****************************/
+
+/************************************************************/
+
+/*-------------- STILARTSITE 1 START---------------*/
+
+#stilartsite {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#stilartsite .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#stilartsite .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#stilartsite .img1 {
+    width: 70%;
+}
+
+#stilartsite .img2 {
+    width: 65.5%;
+}
+
+#stilartsite img {
+    height: 200px;
+}
+
+
+#stilartsite img:hover {
+    opacity: 0.5;
+}
+
+
+#Stilartsite p {
+    padding: 1vw 10vw;
+}
+
+/*-------------- STILARTSITE 1 SLUT---------------*/
+
+/*-------------- STILARTSITE 2 START---------------*/
+
+#stilartsite_1 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#stilartsite_1 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#stilartsite_1 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 2vw;
+}
+
+#stilartsite_1 img {
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#stilartsite_1 img:hover {
+    opacity: 0.5;
+}
+
+
+/*-------------- STILARTSITE 2 SLUT---------------*/
+
+/*-------------- STILARTSITE 3 START ---------------*/
+
+#stilartsite_2 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#stilartsite_2 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#stilartsite_2 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#stilartsite_2 img {
+    width: 100%;
+    margin: 6.5% 0 0 15%;
+}
+
+#stilartsite_2 p {
+    padding: 0 0vw;
+
+
+}
+
+#stilartsite_2 .a {
+    padding: 3% 15%;
+
+
+}
+
+#stilartsite_2 a {
+    text-decoration: underline;
+
+}
+
+/*--------------STILARTSITE 3 SLUT---------------*/
+
+/*-------------- STILARTSITE 2 START---------------*/
+
+#stilartsite_3 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#stilartsite_3 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#stilartsite_3 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 2vw;
+}
+
+#stilartsite_3 img {
+    width: 150px;
+    ;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#stilartsite_3 .a {
+    padding: 3% 10%;
+
+
+}
+
+#stilartsite_3 .splashimg {
+    width: 60%;
+}
+
+
+
+/*-------------- STILARTSITE 2 SLUT---------------*/
+
+/*-------------- STILARTSITE 3 START ---------------*/
+
+#stilartsite_4 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#stilartsite_4 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#stilartsite_4 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#stilartsite_4 .column1 {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+#stilartsite_4 img {
+    width: 40%;
+}
+
+#stilartsite_4 .img1 {
+    width: 15%;
+    margin: 0.5%;
+}
+
+#stilartsite_4 .img3 {
+    width: 3%;
+    margin: 0.5%;
+}
+
+#stilartsite_4 .img1:hover {
+    opacity: 0.5;
+}
+
+#stilartsite_4 img1:hover {
+    opacity: 0.5;
+}
+
+#stilartsite_4 p {
+    padding: 0 5vw;
+
+}
+
+#stilartsite_4 a {
+    text-decoration: underline;
+
+}
+
+/*--------------STILARTSITE 3 SLUT---------------*/
+
+/************************************************************/
+
+/**************************TEMA 2****************************/
+
+.lillemenu_tema2 {
+    background: rgba(60, 46, 35, 0.72);
+    height: 230px;
+    border-radius: 4px;
+
+}
+
+.ind {
+    margin-left: 20px;
+
+}
+
+.lillemenu_tema2 img {
+    width: 20px;
+    margin: 10px:
+}
+
+.lillemenu_tema2 a:hover {
+    opacity: 50%;
+    color: #BD9882;
+}
+
+.lillemenu_tema2 a {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    padding: 2px 0 2px 20px;
+
+}
+
+#placering_tema2 {
+    top: 10vw;
+    left: 85vw;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+
+}
+
+/****************************************************/
+
+#monster_sprite {
+    background-image: url(new_media/HJ%C3%86LPMIGJEGD%C3%98R-01.svg);
+    width: 6vw;
+    height: 9vw;
+    background-size: 1300%;
+}
+
+/**********MONSTER WALKCYCLE**********/
+
+.monster_walkcycle {
+    animation-name: monster_walkcycle_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(6);
+    transition-timing-function: cubic-bezier(.85, .03, .2, 1.03)
+}
+
+
+.defeated_place {
+    left: 44.8%;
+    top: 28.5%;
+}
+
+@keyframes monster_walkcycle_kf {
+    0% {
+        background-position: 0% 60%;
+    }
+    100% {
+        background-position: -600% 60%;
+    }
+}
+
+#monster_container {
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+
+
+/************************************************************/
+
+#gut_sprite {
+    background-image: url(new_media/M%C3%85SKE-01.svg);
+    width: 2vw;
+    height: 3.5vw;
+    background-size: 1300%;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<GUT CONTAINER>>>>>>>>>>>>>>>>>>>>*/
+
+#gut_container {
+    position: absolute;
+    overflow: hidden;
+}
+
+/*<<<<<<<<<<<<VALG POSITION>>>>>>>>>>>*/
+
+.gut_valg_pose {
+    left: 51.5%;
+    top: 39%;
+}
+
+/*<<<<<<<<<<GUT WALKCYCLE>>>>>>>>>>>*/
+
+.gut_walkcycle {
+    animation-name: gut_walkcycle_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(13);
+}
+
+@keyframes gut_walkcycle_kf {
+    0% {
+        background-position: 0 82%;
+    }
+    100% {
+        background-position: -1300% 82%;
+    }
+}
+
+#animation_overskrift {
+    margin: 5%;
+
+    text-align: center;
+}
+
+
+#animation_overskrift h1 {
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#animation_overskrift h2 {
+    color: black;
+    padding: 0;
+    margin: 0 0 15% 0;
+}
+
+/*-------------- ANIMATION 1 START---------------*/
+
+#animation {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#animation a {
+    color: black;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+#animation a:hover {
+    font-weight: 700;
+}
+
+
+#animation .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#animation .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+#animation img {
+    width: 15%;
+    border-radius: 4px;
+    margin: 1.5% 0 1.5% 0;
+}
+
+#animation .img9 {
+    width: 30%;
+    border-radius: 4px;
+    margin: 1.5% 0 1.5% 25%;
+}
+
+#animation .img9:hover {
+    opacity: 0.5;
+}
+
+#animation .img10 {
+    width: 30%;
+    border-radius: 4px;
+    margin: 1.5% 25% 1.5% 0;
+}
+
+#animation .img10:hover {
+    opacity: 0.5;
+}
+
+#animation .h39 {
+    margin: 1.5% 0 1.5% 25%;
+}
+
+#animation .h310 {
+    margin: 1.5% 25% 1.5% 0;
+}
+
+#animation .pil {
+    width: 2%;
+}
+
+#animation img:hover {
+    opacity: 0.5;
+}
+
+
+/*-------------- ANIMATION 1 SLUT---------------*/
+
+/*-------------- ANIMATION 1 START---------------*/
+
+#animation_1 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#animation_1 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#animation_1 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#animation_1 img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+
+#animation_1 .img1 {
+    width: 45%;
+    border-radius: 5px;
+}
+
+#animation_1 .img2 {
+    width: 30%;
+    border-radius: 5px;
+}
+
+
+#animation_1 .img8 {
+    margin: 0 0 0 125px;
+    border-radius: 5px;
+}
+
+#animation_1 .img9 {
+    width: 40%;
+    border-radius: 5px;
+    margin: 2% 0 0 30%;
+}
+
+#animation_1 .img10 {
+    width: 50%;
+    border-radius: 5px;
+    margin: 2% 30% 0 0;
+}
+
+#animation_1 .img11 {
+    width: 65%;
+    border-radius: 5px;
+    margin: 1% 0 2% 0;
+}
+
+#animation_1 p {
+    margin: .5% 20%;
+}
+
+
+
+
+
+
+
+/*-------------- ANIMATION 1 SLUT---------------*/
+
+/*-------------- ANIMATION 2 START---------------*/
+
+#animation_2 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#animation_2 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#animation_2 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 2vw;
+}
+
+#animation_2 img {
+    width: 50%;
+    margin: 0 auto;
+
+    border-radius: 5px;
+}
+
+
+#animation_2 .img2 {
+    width: 90%;
+    margin: 0 auto;
+
+    border-radius: 5px;
+}
+
+#animation_2 p {
+    margin: 0 300px;
+}
+
+
+
+/*-------------- ANIMATION 2 SLUT---------------*/
+
+/*-------------- ANIMATION 3 START ---------------*/
+
+#animation_3 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#animation_3 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#animation_3 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#animation_3 .img4 {
+    width: 40%;
+    margin: 6.5% 0;
+
+    border-radius: 5px;
+}
+
+#animation_3 .section {
+    padding: 0 25%;
+
+}
+
+#animation_3 a {
+    text-decoration: underline;
+
+}
+
+/*--------------STILARTSITE 3 SLUT---------------*/
+
+/*-------------- ANIMATION 3 START ---------------*/
+
+#animation_4 {
+    background-color: rgba(255, 255, 255, 0.74);
+
+}
+
+#animation_4 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#animation_4 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#animation_4 .img4 {
+    width: 40%;
+    margin: 6.5% 0;
+    border-radius: 5px;
+}
+
+#animation_4 .img8 {
+    width: 60%;
+    margin: .5% 0;
+    border-radius: 5px;
+}
+
+#animation_4 p {
+    margin: 2% 25%;
+
+}
+
+#animation_4 .p8 {
+    margin: 2% 15%;
+
+}
+
+#animation_4 b {
+    margin: 5vw 0 0 0;
+
+}
+
+/*--------------STILARTSITE 3 SLUT---------------*/
+
+/*-------------- ANIMATION 3 START ---------------*/
+
+#animation_5 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#animation_5 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#animation_5 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#animation_5 img {
+    width: 10%;
+    margin: 0 0 2% 0;
+}
+
+#animation_5 img:hover {
+    opacity: 0.5;
+}
+
+#animation_5 p {
+    padding: 0 5vw;
+
+}
+
+#animation_5 a {
+    text-decoration: underline;
+
+}
+
+/*--------------STILARTSITE 3 SLUT---------------*/
+
+/************************************************************/
+
+/**************************TEMA 3****************************/
+
+/************************************************************/
+
+/*-------------- VIDEO 1 START---------------*/
+
+#video {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#video .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#video .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#video .img1 {
+    width: 70%;
+}
+
+#video .img2 {
+    width: 65.5%;
+}
+
+#video .img3 {
+    width: 87.5%;
+}
+
+#video .img1:hover {
+    transform: scale(1.5);
+}
+
+#video .img2:hover {
+    transform: scale(1.5);
+}
+
+#video .img3:hover {
+    transform: scale(1.5);
+}
+
+#video p {
+    padding: 1vw 10vw;
+}
+
+/*-------------- VIDEO 1 SLUT---------------*/
+
+/*-------------- VIDEO 2 START---------------*/
+
+#video_2 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#video_2 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#video_2 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 2vw;
+}
+
+#video_2 img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#video_2 img:hover {
+    opacity: 0.5;
+}
+
+
+
+/*-------------- VIDEO 2 SLUT---------------*/
+
+/*-------------- VIDEO 3 START ---------------*/
+
+#video_3 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#video_3 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#video_3 .column1 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding-left: 30%;
+}
+
+#video_3 .column2 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding-right: 30%;
+}
+
+#video_3 img {
+    height: 200px;
+}
+
+#video_3 .img4 {
+    height: 200px;
+}
+
+
+#video_3 img:hover {
+    opacity: 0.5;
+}
+
+
+#video_3 p {
+    padding: 0 5vw;
+
+}
+
+#video_3 a {
+    text-decoration: none;
+    font-family: Open Sans, sans-serif;
+    font-size: 1.5em
+}
+
+/*--------------VIDEO 3 SLUT---------------*/
+
+/************************************************************/
+
+/**************************TEMA 4****************************/
+
+/************************************************************/
+
+/*-------------- UX 1 START---------------*/
+
+#ux {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#ux .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ux .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#ux .img1 {
+    width: 70%;
+}
+
+#ux .img2 {
+    width: 65.5%;
+}
+
+#ux .img3 {
+    width: 87.5%;
+}
+
+#ux .img1:hover {
+    transform: scale(1.5);
+}
+
+#ux .img2:hover {
+    transform: scale(1.5);
+}
+
+#ux .img3:hover {
+    transform: scale(1.5);
+}
+
+#ux p {
+    padding: 1vw 10vw;
+}
+
+
+.uxvalg h2 {
+    padding: 0 0 5% 0
+}
+
+.uxvalg h1 {
+    padding: 0;
+}
+
+
+
+
+
+
+#ux_valg {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#ux_valg a {
+    color: black;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+#ux_valg a:hover {
+    font-weight: 700;
+}
+
+
+#ux_valg .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ux_valg .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+#ux_valg .img1 {
+    width: 20%;
+    border-radius: 4px;
+    margin: 1.5% 0 1.5% 40%;
+}
+
+#ux_valg .img2 {
+    width: 20%;
+    border-radius: 4px;
+    margin: 1.5% 40% 1.5% 0;
+}
+
+#ux_valg .txt2 {
+    margin: 1.5% 40% 1.5% 0;
+}
+
+#ux_valg .txt1 {
+    margin: 1.5% 0 1.5% 40%;
+}
+
+
+#ux_valg img:hover {
+    opacity: 0.5;
+}
+
+
+/*-------------- UX 1 SLUT---------------*/
+
+/*-------------- UX 2 START---------------*/
+
+#ux_2 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#ux_2 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ux_2 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 2vw;
+}
+
+#ux_2 img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/*-------------- UX 2 SLUT---------------*/
+
+/*-------------- UX 3 START ---------------*/
+
+#ux_3 {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#ux_3 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ux_3 .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#ux_3 .img4 {
+    width: 40%;
+    margin: 6.5% 0;
+}
+
+#ux_3 .img4:hover {
+    transform: scale(1.5)
+}
+
+#ux_3 .img5:hover {
+    transform: scale(1.2)
+}
+
+#ux_3 p {
+    padding: 0 5vw;
+
+}
+
+#ux_3 a {
+    text-decoration: underline;
+
+}
+
+/*--------------UX 3 SLUT---------------*/
+
+/*--------------------app--------------------*/
+
+#app {
+    background-color: rgba(255, 255, 255, 0.74);
+    height: 900px;
+}
+
+#app img {
+    width: 22vw;
+}
+
+#app video {
+    width: 17vw;
+}
+
+#app .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#app .text_app {
+    flex-grow: 1;
+    width: 50vw;
+    flex-basis: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#app .video_app {
+    flex-grow: 1;
+    padding: 1.9vw 4vw;
+    flex-basis: 300px;
+    position: relative;
+}
+
+.iphone {
+    position: absolute;
+
+}
+
+.video {
+    position: absolute;
+    top: 7vw;
+    left: 6.5vw;
+    z-index: 20;
+}
+
+#app a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+#app a:hover {
+    color: #BD9882;
+}
+
+
+#app .ikon_img {
+    width: 125px;
+    margin: 0 0 0 17%;
+}
+
+/*------------------------------*/
+
+/*--------------------app--------------------*/
+
+#app_2 {
+    background-color: rgba(255, 255, 255, 0.74);
+    height: 900px;
+}
+
+#app_2 img {
+    width: 22vw;
+}
+
+#app_2 video {
+    width: 17vw;
+}
+
+#app_2 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#app_2 .text_app {
+    flex-grow: 1;
+    width: 50vw;
+    flex-basis: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#app_2 .video_app {
+    flex-grow: 1;
+    padding: 1.9vw 4vw;
+    flex-basis: 300px;
+    position: relative;
+}
+
+.iphone {
+    position: absolute;
+
+}
+
+.video {
+    position: absolute;
+    top: 7vw;
+    left: 6.5vw;
+    z-index: 20;
+}
+
+#app_2 a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.2em;
+    padding: 25% 0 0 17%;
+    margin: 5%;
+}
+
+#app_2 a:hover {
+    color: #BD9882;
+}
+
+
+#app_2 h3 {
+    font-family: 'Bad Script', cursive;
+    font-weight: 100;
+    font-size: 6em;
+    padding: 25% 0 0 17%;
+    margin: 2%;
+
+}
+
+
+
+
+
+#app_2 .ikon_img {
+    width: 125px;
+    margin: 0 0 0 17%;
+}
+
+/*--------------------app--------------------*/
+
+#app_3 {
+    background-color: rgba(255, 255, 255, 0.74);
+    height: 900px;
+}
+
+#app_3 img {
+    width: 22vw;
+}
+
+#app_3 video {
+    width: 17vw;
+}
+
+#app_3 .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#app_3 .text_app {
+    flex-grow: 1;
+    width: 50vw;
+    flex-basis: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#app_3 .video_app {
+    flex-grow: 1;
+    padding: 1.9vw 4vw;
+    flex-basis: 300px;
+    position: relative;
+}
+
+.iphone {
+    position: absolute;
+
+}
+
+.video {
+    position: absolute;
+    top: 7vw;
+    left: 6.5vw;
+    z-index: 20;
+}
+
+#app_3 a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1.2em;
+
+}
+
+#app_3 a:hover {
+    color: #BD9882;
+}
+
+
+#app_3 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 6em;
+    padding: 15% 0 0 0;
+}
+
+
+
+
+
+#app_3 .ikon_img {
+    width: 125px;
+    margin: 0 0 0 17%;
+}
+
+
+
+/*--------------CV START---------------*/
+
+#cv {
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+#cv .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cv .column {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 2vw;
+}
+
+#cv img {
+    width: 4%;
+    margin: 1%;
+    opacity: 0.8;
+}
+
+
+#cv .img1 {
+    width: 50.5%;
+    margin: 1%;
+    opacity: 1;
+}
+
+#cv ul {
+    text-align: left;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+#cv p {
+    text-align: left;
+}
+
+#cv .h1 {
+    text-align: left;
+    margin: 0 5%;
+}
+
+
+#cv .p1 {
+    padding: 1% 5% 1% 5%;
+}
+
+#cv .p2 {
+    padding: 0 0 1% 5%;
+}
+
+
+/*--------------CV SLUT---------------*/
+
+#overskrift {
+    margin: 5%;
+
+    text-align: center;
+}
+
+#overskrift img {
+    margin: 0;
+    width: 25%;
+}
+
+#overskrift h1 {
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#overskrift h2 {
+    color: black;
+    padding: 1% 0;
+    margin: 0;
+}
+
+#dok_style {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#dok_style a {
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#dok_style a:hover {
+    color: #BD9882;
+}
+
+#dok_style p {
+    font-size: 1.1em;
+}
+
+#dok_style h2 {
+    font-size: 2.5em;
+}
+
+#dok_style li {
+    font-size: 1.1em;
+    padding: 5px 0;
+    font-weight: 200;
+}
+
+#dok_style i {
+    font-size: 1em;
+    padding: 5px 0;
+}
+
+#dok_style b {
+    font-size: 1.1em;
+}
+
+/****************************************************************************************************************************************************************************************/
+
+#oskar_sprite {
+    background-image: url(new_media/02/oskar/oskar_spritesheet_endelig.svg);
+    width: 6vw;
+    height: 9vw;
+    background-size: 2100%;
+}
+
+
+/******AFSLAPPET******/
+
+.oskar_afslappet {
+    background-position: 0 0;
+    transform: scaleX(-1);
+}
+
+#oskar_container {
+    position: absolute;
+    overflow: hidden;
+}
+
+
+/******POSE******/
+
+.oskar_end_pose {
+    top: 30.5%;
+    left: 51.6%;
+}
+
+
+#dreng1_sprite {
+    background-image: url(new_media/02/oskar/dreng1_spritesheet.svg);
+    width: 6vw;
+    height: 9vw;
+    background-size: 900%;
+}
+
+
+/******LAUGHCYCLE******/
+
+.dreng1_laughcycle {
+    animation-name: dreng1_laughcycle_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(4);
+    animation-fill-mode: both;
+}
+
+@keyframes dreng1_laughcycle_kf {
+    0% {
+        background-position: 0% 75%;
+    }
+    100% {
+        background-position: -400% 75%;
+    }
+}
+
+#dreng1_container {
+    position: absolute;
+    overflow: hidden;
+}
+
+/******STAA OSKAR******/
+
+.dreng1_staa_oskar {
+    top: 29.3%;
+    left: 46.5%;
+}
+
+
+#dreng2_sprite {
+    background-image: url(new_media/02/oskar/dreng2_spritesheet.svg);
+    width: 6vw;
+    height: 9vw;
+    background-size: 400%;
+}
+
+/******LAUGHCYCLE******/
+
+.dreng2_laughcycle {
+    animation-name: dreng2_laughcycle_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(4);
+    animation-fill-mode: both;
+}
+
+@keyframes dreng2_laughcycle_kf {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: -400% 100%;
+    }
+}
+
+#dreng2_container {
+    position: absolute;
+    overflow: hidden;
+}
+
+.dreng2_oskar {
+    top: 30%;
+    left: 43.5%;
+}
+
+#bruser_container {
+    position: absolute;
+    overflow: hidden;
+}
+
+.dryp_pose {
+    top: 345%;
+    left: 45%;
+}
+
+#bruser_sprite {
+    background-image: url(new_media/02/oskar/bruser_drypper_asset.svg);
+    width: 13vw;
+    height: 18vw;
+    background-size: 1600%;
+}
+
+.bruser_dryp {
+    animation-name: bruser_dryp_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(16);
+}
+
+@keyframes bruser_dryp_kf {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: -1600%;
+    }
+}
+
+#animation_2 .p2 {
+    margin: 0 0 20% 0;
+}
+
+.lillemenu_oskar {
+    background: rgba(60, 46, 35, 0.72);
+    height: 190px;
+    border-radius: 4px;
+
+}
+
+.ind {
+    margin-left: 20px;
+
+}
+
+.lillemenu_oskar img {
+    width: 20px;
+    margin: 10px:
+}
+
+.lillemenu_oskar a:hover {
+    opacity: 50%;
+    color: #BD9882;
+}
+
+.lillemenu_oskar a {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    padding: 2px 0 2px 20px;
+
+}
+
+#placering_oskar {
+    top: 10vw;
+    left: 85vw;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+
+}
+
+/****************ANIVALG*****************/
+
+.anivalg h2 {
+    padding: 0 0 50% 0
+}
+
+.anivalg h1 {
+    padding: 0;
+}
+
+
+#oskar_sprite2 {
+    background-image: url(new_media/02/oskar/oskar_spritesheet_endelig.svg);
+    width: 11vw;
+    height: 16vw;
+    background-size: 2100%;
+}
+
+
+/******AFSLAPPET******/
+
+.oskar_afslappet2 {
+    background-position: 0 0;
+    transform: scaleX(-1);
+}
+
+#oskar_container2 {
+    position: absolute;
+    overflow: hidden;
+}
+
+
+/******POSE******/
+
+.oskar_end_pose2 {
+    top: 51%;
+    left: 73%;
+}
+
+
+#dreng1_sprite2 {
+    background-image: url(new_media/02/oskar/dreng1_spritesheet.svg);
+    width: 11vw;
+    height: 18vw;
+    background-size: 900%;
+}
+
+
+/******LAUGHCYCLE******/
+
+.dreng1_laughcycle2 {
+    animation-name: dreng1_laughcycle_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(4);
+    animation-fill-mode: both;
+}
+
+@keyframes dreng1_laughcycle_kf {
+    0% {
+        background-position: 0% 75%;
+    }
+    100% {
+        background-position: -400% 75%;
+    }
+}
+
+#dreng1_container2 {
+    position: absolute;
+    overflow: hidden;
+}
+
+/******STAA OSKAR******/
+
+.dreng1_staa_oskar2 {
+    top: 47.5%;
+    left: 67%;
+}
+
+
+#dreng2_sprite2 {
+    background-image: url(new_media/02/oskar/dreng2_spritesheet.svg);
+    width: 11vw;
+    height: 16vw;
+    background-size: 400%;
+}
+
+/******LAUGHCYCLE******/
+
+.dreng2_laughcycle2 {
+    animation-name: dreng2_laughcycle_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(4);
+    animation-fill-mode: both;
+}
+
+@keyframes dreng2_laughcycle_kf {
+    0% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: -400% 100%;
+    }
+}
+
+#dreng2_container2 {
+    position: absolute;
+    overflow: hidden;
+}
+
+.dreng2_oskar2 {
+    top: 52.8%;
+    left: 61%;
+}
+
+#monster_sprite2 {
+    background-image: url(new_media/HJ%C3%86LPMIGJEGD%C3%98R-01.svg);
+    width: 11vw;
+    height: 16vw;
+    background-size: 1300%;
+}
+
+/**********MONSTER WALKCYCLE**********/
+
+.monster_walkcycle2 {
+    animation-name: monster_walkcycle_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(6);
+    transition-timing-function: cubic-bezier(.85, .03, .2, 1.03)
+}
+
+
+.defeated_place2 {
+    left: 16%;
+    top: 50%;
+}
+
+@keyframes monster_walkcycle_kf {
+    0% {
+        background-position: 0% 60%;
+    }
+    100% {
+        background-position: -600% 60%;
+    }
+}
+
+#monster_container2 {
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+
+
+/************************************************************/
+
+#gut_sprite2 {
+    background-image: url(new_media/M%C3%85SKE-01.svg);
+    width: 3.8vw;
+    height: 7.5vw;
+    background-size: 1300%;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<GUT CONTAINER>>>>>>>>>>>>>>>>>>>>*/
+
+#gut_container2 {
+    position: absolute;
+    overflow: hidden;
+}
+
+/*<<<<<<<<<<<<VALG POSITION>>>>>>>>>>>*/
+
+.gut_valg_pose2 {
+    left: 30%;
+    top: 66.5%;
+}
+
+/*<<<<<<<<<<GUT WALKCYCLE>>>>>>>>>>>*/
+
+.gut_walkcycle2 {
+    animation-name: gut_walkcycle_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(13);
+}
+
+@keyframes gut_walkcycle_kf {
+    0% {
+        background-position: 0 82%;
+    }
+    100% {
+        background-position: -1300% 82%;
+    }
+}
+
+#animation .columnspoopy {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#animation .columnspoopy:hover {
+    opacity: 0.5;
+}
+
+#animation .columnoscar:hover {
+    opacity: 0.5;
+}
+
+#animation .columnoscar {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
