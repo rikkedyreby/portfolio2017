@@ -40,7 +40,7 @@ body {
 #ux_3,
 #ux_valg,
 #app_3 {
-    max-width: 1800px;
+    max-width: 1400px;
     /*KONTROLLERER MAX BREDDE PÅ DINE SECTIONS*/
     margin: 4vw auto;
     text-align: center;
@@ -73,7 +73,7 @@ a:hover {
 
 .pres_header nav {
     font-family: "Open Sans", sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: center;
     margin: 0 2vw 0 0;
 }
@@ -81,7 +81,7 @@ a:hover {
 .pres_header nav a {
     text-decoration: none;
     color: #ffffff;
-    padding-left: 50px;
+    padding-left: 30px;
     display: block;
 }
 
@@ -112,11 +112,11 @@ a:hover {
 
 .lillemenu img {
     width: 20px;
-    margin: 10px:
+    margin: 10px;
 }
 
 .lillemenu a:hover {
-    opacity: 50%;
+    opacity: 0.5;
     color: #BD9882;
 }
 
@@ -167,7 +167,7 @@ h3 {
     font-size: 2.5em;
 }
 
-}
+
 
 h4 {
     font-family: 'Open Sans', sans-serif;
@@ -452,11 +452,11 @@ footer {
 
 .lillemenu_tema2 img {
     width: 20px;
-    margin: 10px:
+    margin: 10px;
 }
 
 .lillemenu_tema2 a:hover {
-    opacity: 50%;
+    opacity: 0.5;
     color: #BD9882;
 }
 
@@ -1003,7 +1003,7 @@ footer {
 
 #video_3 a {
     text-decoration: none;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5em
 }
 
@@ -1688,11 +1688,11 @@ footer {
 
 .lillemenu_oskar img {
     width: 20px;
-    margin: 10px:
+    margin: 10px;
 }
 
 .lillemenu_oskar a:hover {
-    opacity: 50%;
+    opacity: 0.5;
     color: #BD9882;
 }
 
